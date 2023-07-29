@@ -10,7 +10,7 @@ box-sizing: border-box;
 body{
     font-family: 'Permanent Marker', cursive;
     font-family: 'Rubik', sans-serif;
-
+background-color: #ece9e9;
 }
 .containar{
     padding: 0px 100px;
@@ -155,8 +155,9 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .Products .prductParent .ProductChildOne {
     border: 1px solid rgb(59, 57, 57);
+    border: none;
     border-radius: 15px;
-   
+    background-color: #F8F9FA;
     }
 
 
@@ -202,6 +203,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
    
 }
 .ProductChildOne h6 button{
+    margin-bottom: 0px;
     color: white;
     background-color:  #19CE67;
     border: none;
@@ -220,6 +222,64 @@ background-color:  #19CE67;
 padding: 4px 15px;
 font-size: 13px;
 }
+
+/*TEAM SECTION AREA STYLE*/
+
+.teamSection .parentTeam{
+
+    display: grid;
+    
+       
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+   
+    
+    }
+    .teamSection .parentTeam .teamChildOne {
+        border: 1px solid rgb(244, 230, 230);
+        border: none;
+        border-radius: 20px;
+        background-color: #F8F9FA;
+        height: 100%;
+
+        }
+
+
+        .teamSection .parentTeam .teamChildOne .img{
+            
+            width: 99%;
+            height: 80%;
+        border-radius: 20px;
+           
+        }
+        
+        .teamSection .parentTeam .teamChildOne h4{
+            color: #19CE67;
+        }
+        .teamSection .parentTeam .teamChildOne p{
+            margin-top: 2px;
+            margin-bottom: 7px;
+            font-size: 15px;
+            opacity: 55px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -342,11 +402,23 @@ font-size: 13px;
                margin-bottom: 12px;
                 }
         
-        
+        /*TEAM SECTION */
         
         
 
+        .teamSection .parentTeam{
 
+            display: block;
+            
+            }
+            .teamSection .parentTeam .teamChildOne {
+                border: 1px solid rgb(244, 230, 230);
+                border: none;
+                border-radius: 20px;
+                background-color: #F8F9FA;
+                height: 100%;
+        margin-bottom: 15px;
+                }
 
 
 
