@@ -193,7 +193,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 
 .ProductChildOne h6{
    
-    color: white;
+ 
     background-color:  #19CE67;
    padding: 4px 82.5px;
    font-size: 13px;
@@ -202,11 +202,24 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
    
 }
 .ProductChildOne h6 button{
+    color: white;
     background-color:  #19CE67;
     border: none;
 }
-
-
+.Browse{
+    text-align: center;
+ 
+}
+.Browse button{
+    background-color:  #19CE67;
+border: none;
+margin-top: 12px;
+border-radius: 3px;
+color: white;
+background-color:  #19CE67;
+padding: 4px 15px;
+font-size: 13px;
+}
 
 
 
@@ -236,95 +249,119 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 
 
     @media only screen and (max-width:600px)
-    {
-
-body{
-    background-color: red;
-}
-
-.navArea{
-    display: none;
-}
-.navContainar .fa-solid{
-    display: flex;
-    padding-top: 8px;
-
-}
-/*BANNER SECTION STYLE*/
-
-
-.imgArea{
-    display: none;
     
-}
-
- .textArea{
-        padding-top: 80px;
-        padding-left: 10px;
-    width: 100%;
-    }
-    
-    .parentBanner .textArea .btn {
-        display: flex;
-        gap: 12px;
-        margin-bottom: 40px;
-    }
-    .parentBanner .textArea .btn .buttonone{
-        color: white;
-        background-color:  #19CE67;
-       padding: 8px 17px;
-       font-size: 10px;
-       border-radius: 5px;
-       border: none;
-       
-      
-    
-        
-    }
-    
-    .parentBanner .textArea .btn .buttonTwo{
-        color: white;
-        background-color:  black;
-       padding: 1px 18px;
-       font-size: 8px;
-       border-radius: 3px;
-       border: none;}
-       margin-top: 18px;
-
-
-/* PRODUCTS AREA SECTION*/
-
-.title h2{
-    font-size: 18px;
-    
-}
-
- .title p{
-    font-size: 12px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
 
 
 
-.Products .prductParent{
-
-    display: block;
- 
-        
-    
-    }
-    .Products .prductParent{
-        padding-bottom: 10px;
-    }
-    .Products .prductParent .ProductChildOne {
-        border: 1px solid rgb(59, 57, 57);
-        border-radius: 15px;
-       margin-bottom: 12px;
+{
+        body{
+            background-color: red;
         }
+        .navArea{
+            display: none;
+        }
+        .navContainar .fa-solid{
+            display: flex;
+            padding-top: 8px;
+        }
+        /*BANNER SECTION STYLE*/
+        .imgArea{
+            display: none;
+            
+        }
+         .textArea{
+                padding-top: 80px;
+                padding-left: 10px;
+            width: 100%;
+            }
+        
+           
+            .parentBanner .textArea .btn {
+                display: flex;
+                gap: 12px;
+                margin-bottom: 40px;
+            }
+            .parentBanner .textArea .btn .buttonone{
+                color: white;
+                background-color:  #19CE67;
+               padding: 4px 17px;
+               padding: 8px 17px;
+               font-size: 10px;
+               border-radius: 5px;
+               border: none;
+               margin-right: 10px;
+               margin-top: 10px;
+        
+        
+        
+        
+            }
+        
+            .parentBanner .textArea .buttonTwo{
+            
+                color: white;
+                background-color:  black;
+               padding: 4px 17px;
+               font-size: 10px;
+               padding: 1px 18px;
+               font-size: 8px;
+               border-radius: 3px;
+               border: none;
+               margin-top: 18px;
+        
+            }
+        /* PRODUCTS AREA SECTION*/
+        
+        .title h2{
+            font-size: 12px;
+
+        text-align: center;
+        }
+        
+         .title p{
+            font-size: 15px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        
+        
+        
+        .Products .prductParent{
+        
+            display: block;
+        
+        
+        
+            }
+            .Products .prductParent{
+                padding-bottom: 10px;
+            }
+            .Products .prductParent .ProductChildOne {
+                border: 1px solid rgb(59, 57, 57);
+                border-radius: 15px;
+               margin-bottom: 12px;
+                }
+        
+        
+        
+        
 
 
-       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -337,11 +374,5 @@ body{
 
 
         
-    }
-
-
-
-
-
-    
-
+        
+            }
