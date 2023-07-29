@@ -10,7 +10,7 @@ box-sizing: border-box;
 body{
     font-family: 'Permanent Marker', cursive;
     font-family: 'Rubik', sans-serif;
-background-color: #ece9e9;
+background-color: #F4F4F4;
 }
 .containar{
     padding: 0px 100px;
@@ -252,7 +252,8 @@ font-size: 13px;
             
             width: 100%;
             height: 80%;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
            
         }
         
@@ -280,7 +281,7 @@ font-size: 13px;
                
                 grid-template-columns: 1fr 1fr 1fr ;
             gap: 12px;
-            
+            margin-bottom: 40px;
            
             
             }
@@ -292,7 +293,7 @@ font-size: 13px;
                 background-color: #F8F9FA;
                 height: 100%;
         width: 100%;
-        
+       
                 }
         
         
@@ -347,28 +348,81 @@ color: #19CE67;
                 }
 
 
+/*FOOTER AREA SECTION*/
+.footerArea {
+    background-color: #212529;
+height: 100%;
+width: 100%;
+
+}
+
+
+
+.footerArea .parentFooter{
+display: grid;
+grid-template-columns: 2.5fr 1.7fr 1.8fr;
+padding-top: 20px;
+
+}
+
+.footerArea .parentFooter h3{
+    font-size: 15px;
+    color:white;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.footerArea .parentFooter p{
+    font-size: 10px;
+    color:white;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+.copyright{
+    padding-top: 10px;
+color: #ece9e9;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.copyright p {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
     /*RESPONSIVE AREA STYLE*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -386,7 +440,7 @@ color: #19CE67;
    
 
         body{
-            background-color: red;
+            background-color: #F4F4F4;
         }
         .navArea{
             display: none;
@@ -432,13 +486,13 @@ color: #19CE67;
             
                 color: white;
                 background-color:  black;
-               padding: 4px 17px;
+               padding: 8px 25px;
                font-size: 10px;
-               padding: 1px 18px;
-               font-size: 8px;
+               
+               font-size: 10px;
                border-radius: 3px;
-               border: none;
-               margin-top: 18px;
+              
+               margin-top: 10px;
         
             }
         /* PRODUCTS AREA SECTION*/
@@ -469,9 +523,12 @@ padding-bottom: 5px;
                 padding-bottom: 10px;
             }
             .Products .prductParent .ProductChildOne {
-                border: 1px solid rgb(59, 57, 57);
+               
                 border-radius: 15px;
                margin-bottom: 12px;
+               border: 1px solid rgba(210, 187, 187, 0.721);
+               
+               background-color: #F8F9FA;
                 }
         
         /*TEAM SECTION */
@@ -484,8 +541,10 @@ padding-bottom: 5px;
             
             }
             .teamSection .parentTeam .teamChildOne {
-                border: 1px solid rgb(244, 230, 230);
-                border: none;
+               
+                border: 1px solid rgba(210, 187, 187, 0.721);
+               
+               background-color: #F8F9FA;
                 border-radius: 20px;
                 background-color: #F8F9FA;
                 height: 100%;
@@ -501,7 +560,7 @@ padding-bottom: 5px;
     }
     .newsSection .parentNews .newsChildOne{
         margin-top: 13px;
-        border: 2px solid rgba(210, 187, 187, 0.721);
+        border: 1px solid rgba(210, 187, 187, 0.721);
       
         border-radius: 20px ;
         background-color: #F8F9FA;
@@ -547,15 +606,41 @@ color: #19CE67;
         }
 
        
-
+/*FOOTER AREA SECTION*/
         
 
+.footerArea .parentFooter{
+    display: block;
 
+    
+    
+    }
+    
+    .footerArea .parentFooter h3{
+        font-size: 15px;
+    color:white;
+
+    }
+    .footerArea .parentFooter p{
+        font-size: 10px;
+        color: white;
+        padding-top: 15px;
+        align-items: center;
+    }
+    
        
+    .copyright{
+        padding-top: 10px;
+color: #ece9e9;
+        text-align: center;
+        font-size: 10px;
+    }
 
 
-
-
+.copyright p {
+    padding-top: 10px;
+padding-bottom: 10px;
+}
 
 
 
